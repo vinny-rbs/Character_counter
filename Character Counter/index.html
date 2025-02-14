@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Counter</title>
+    <link rel="stylesheet" href="src/style/base.css">
+    <link rel="shortcut icon" href="src/assets/icons/eye.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div id="container">
+        <nav>
+            <a href="/">
+                <div id="logo">
+                    <img src="src/assets/icons/eye.svg" alt="Olho Logo">
+                    <h3>Character Counter</h3>
+                </div>
+            </a>
+            <button id="button_theme">
+                <img src="src/assets/icons/sun.svg" alt="">
+            </button>
+        </nav>
+        <main>
+            <div id="title">
+                <h1>Analise o seu texto em tempo real.</h1>
+            </div>
+            <div id="input_letter">
+                <textarea type="text" placeholder="Digite ou cole o seu texto aqui..." id="input_text"></textarea>
+            </div>
+            <div id="control_main">
+                <p>Tempo estimado de leitura: <span>0</span> minutos</p>
+            </div>
+        </main>
+        <div id="info">
+            <div class="card">
+                <article>
+                    <h1 id="character_number">0</h1>
+                    <p>Total de caractéres</p>
+                </article>
+            </div>
+            <div class="card">
+                <article>
+                    <h1 id="word_number">0</h1>
+                    <p>Total de palavras</p>
+                </article>
+            </div>
+            <div class="card">
+                <article>
+                    <h1 id="sentence_number">0</h1>
+                    <p>Total de frases</p>
+                </article>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="src/script/main.js"></script>
+
+</html>
