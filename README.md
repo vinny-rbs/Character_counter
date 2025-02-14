@@ -3,13 +3,18 @@ O Character Counter é uma ferramenta dinâmica que analisa textos e exibe infor
 
 ## 🎥 Demonstração  
 
-<img aling="center" src="/">
+<img aling="center" src="/Character Counter/src/assets/demo/Character_counter_visualizer_action.png">
 
 ## 📱 Responsividade
+  
+# Desktop
+<img width="600" src="/Character Counter/src/assets/demo/Character_counter_visualizer_desktop.png">
 
-<img width="100" src="/">
-<img width="100" src="/">
-<img width="100" src="/">
+# Tablet
+<img heigth="400" width="300" src="/Character Counter/src/assets/demo/Character_counter_visualizer_tablet.png">
+
+# Mobile
+<img heigth="300" width="250" src="/Character Counter/src/assets/demo/Character_counter_visualizer_mobile.png">
 
 ## 🚀 Tecnologias
 
